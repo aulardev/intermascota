@@ -5,55 +5,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>intermascota</title>
+    <title>Intermascota</title>
+    <meta name="description" content="todo lo que necesitas para la salud y bienestar de tu mascota">
+    <meta name="keywords" content="alimento balanceado, accesorios, juguetes, veterinaria">
+    <meta name="author" content="Cesar Aular">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <header class="header">
-        <h1 class="header__title"> intermascota </h1>
-        <h4 class="header__subtitle"> todo para tu mascota </h4>
+    <nav class="nav">
+        <a href="#" class="nav__items--cta"> Contacto </a>
+        <a href="#" class="nav__items"> Sobre Nosotros </a>
+        <a href="#" class="nav__items"> Servicios </a>
+    </nav>
+    <header class="hero">
+        <div class="container">
+            
+            <section class="hero__container">
+                <div class="hero__tex">
+                    <h1 class="hero__title">Intermascota</h1>
+                    <h2 class="hero__subtitle"> Todo para tu mascota en un solo lugar </h2>
+                    <a href="#" class="hero__cta">Contactanos ahora</a>
+                </div>
+            </section>
+
+        </div>
     </header>
 
-    <nav class="nav">
-        <ul class="nav__items">
-            <li>
-                Nosotros
-            </li>
+    <main>
+        <section class="presentation container">
+        
+            <h2 class="subtitle"> Sobre Nosotros </h2>
+            <p class="presentation__copy"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores,
+                voluptatum alias quod magni culpa voluptates! Officiis voluptatibus ea, numquam ut laborum commodi alias
+                non aliquid iure omnis ullam suscipit doloribus?</p>
+            <a href="#" class="presentation__cta"> Escribenos </a>
 
-            <li>
-                Contacto
-            </li>
-        </ul>
-    </nav>
-
-    <main class="container">
         </section>
 
-        <section class="">
 
-            <div class="">
-                <h2 class="subtitle"> Sobre Nosotros </h2>
-                <p class="about__paragraph"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci laudantium consequuntur
-                    nam soluta labore fuga, facere quisquam ab earum, non porro reprehenderit. Facilis in eius, odit
-                    magnam laudantium magni voluptatum!. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi
-                    quis accusantium, eveniet ratione dolores doloremque nam, natus dolor cum laudantium incidunt
-                    architecto? Fugit beatae quas necessitatibus nihil labore provident quidem?</p>
+        <section class="servicios container">
+            <div class="servicios__texts">
+                <h2 class="subtitle"> Nuestros Servicios </h2>
+                <p class="servicios__paragraph"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium
+                    officia voluptatibus quis corporis tempora, adipisci sequi, nam cum ipsa ducimus nesciunt provident
+                    illo voluptas quos explicabo ex reiciendis velit animi?</p>
+                    <p class="servicios__paragraph"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium
+                        officia voluptatibus quis corporis tempora, adipisci sequi, nam cum ipsa ducimus nesciunt provident
+                        illo voluptas quos explicabo ex reiciendis velit animi?</p>
             </div>
-            <figure class="">
-                <img src="" class="">
-            </figure>
-            <figure class="about__img about__img--left">
-                <img src="" class="about__picture">
+            <figure class="servicios__img servicios__img--left">
+                <img src="images/undraw_medicine_b-1-ol.svg" alt="nuestros servicios">
             </figure>
 
-            <div class="about__text">
-                <h2 class="subtitle"> Servicios </h2>
-                <p class="about__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, delectus!
-                    Excepturi sapiente, quo mollitia totam officiis libero expedita harum veniam odio maxime magnam
-                    nulla, perspiciatis, itaque nisi at nihil incidunt.</p>
-            </div>
 
+        </section>
+
+
+        <section class="customers">
+            <div class="container">
+                <h2 class="subtitle"> Nuestros clientes </h2>
+                <div class="customers__grid">
+
+                    <article class="customers__items">
+                        <img src="images/img4.jpg" alt="gato" class="customers__img">
+                        <i class="far fa-file-alt customers__icon"></i>
+                    </article>
+
+                    <article class="customers__items">
+                        <img src="images/img5.jpg" alt="perro" class="customers__img">
+                        <i class="far fa-file-alt customers__icon"></i>
+                    </article>
+
+                    <article class="customers__items">
+                        <img src="images/img6.jpg" alt="perro" class="customers__img">
+                        <i class="far fa-file-alt customers__icon"></i>
+                    </article>
+
+                    <article class="customers__items">
+                        <img src="images/img7.jpg" alt="perro" class="customers__img">
+                        <i class="far fa-file-alt customers__icon"></i>
+                    </article>
+
+                    <article class="customers__items">
+                        <img src="images/img8.jpg" alt="gatito" class="customers__img">
+                        <i class="far fa-file-alt customers__icon"></i>
+                    </article>
+                </div>
+            </div>
         </section>
 
 
@@ -61,10 +100,34 @@
     </main>
 
     <footer class="footer">
-        <p class="footer__text"> All Rigths Reserved Intermascota SRL</p>
+        <div class="container footer__grid" >
+            <nav class="nav nav--foter">
+                <a class="nav__items nav__items--footer" href="">Contacto</a>
+                <a class="nav__items nav__items--footer" href="">Sobre Nosotros</a>
+                <a class="nav__items nav__items--footer" href="">Servicios</a>
+            </nav>
 
+            <section class="footer__contact">
+                <h3 class="footer__title"> Contactanos </h3>
+                <div class="footer__icons">
+                    <span class="footer__container-icons footer__icons">
+                        <a class="fa-brands fa-instagram" href="#"></a>
+
+                    </span>
+                    <span class="footer__container-icons footer__icons">
+                        <a class="fa-brands fa-facebook" href="#"></a>
+                        
+                    </span>
+                    <span class="footer__container-icons footer__icons">
+                        <a class="fa-brands fa-whatsapp" href="#"></a>
+                        
+                    </span>
+                </div>
+            </section>
+        </div>
     </footer>
 
+    <script src="https://kit.fontawesome.com/2726180f5e.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
