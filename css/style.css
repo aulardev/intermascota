@@ -281,7 +281,7 @@ iframe {
 }
 
 .footer__contact::after {
-    content: "Phone: +54-11-6115-5315";
+    content: "Teléfono: +54-11-6115-5315";
     margin-left: 10px;
 }
 
